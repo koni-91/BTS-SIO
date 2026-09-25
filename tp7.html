@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+</head>
+<form>
+  <h1>Ajout d'un nouveau véhicule</h1>
+ <table border="0" width="60%">
+<tr>
+ <td>
+    <label for="marque">Marque :</label>
+ </td>
+<td>
+  <select id="marque" name="marque">
+   <option value="Peugeot">Peugeot</option>
+ <option value="Mercedes">Mercedes</option>
+ <option value="Renault">Renault</option>
+</select>
+</td>
+</tr>
+ <tr>
+  <td>
+<label for="immatriculation">Immatriculation :</label>
+</td>
+<td>
+<input type="text" id="immatriculation" name="immatriculation">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="couleur">Couleur :</label>
+</td>
+<td>
+<input type="text" id="couleur" name="couleur">
+ </td>
+</tr>
+
+
+<tr>
+<td>
+<label for="date_immatriculation">Date d'immatriculation :</label>
+</td>
+<td>
+<input type="date" id="date_immatriculation" name="date_immatriculation">
+</td>
+ </tr>
+
+<tr>
+<td>
+ <label for="kilometrage">Kilométrage :</label>
+</td>
+<td>
+<input type="number" id="kilometrage" name="kilometrage">
+</td>
+</tr>    
+<tr>
+<td>
+<label>État :</label>
+</td>
+<td>
+<input type="radio" id="occasion" name="etat" value="Occasion">
+<label for="occasion">Occasion</label>
+
+<input type="radio" id="neuf" name="etat" value="Neuf">
+<label for="neuf">Neuf</label>
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Carburant :</label>
+</td>
+<td>
+<input type="radio" id="hybride" name="carburant" value="Hybride">
+<label for="hybride">Hybride</label>
+
+<input type="radio" id="electrique" name="carburant" value="Electrique">
+<label for="electrique">Électrique</label>
+
+<input type="radio" id="diesel" name="carburant" value="Diesel">
+<label for="diesel">Diesel</label>
+
+<input type="radio" id="essence" name="carburant" value="Essence">
+<label for="essence">Essence</label>
+</td>
+</tr>
+<tr>
+<td>
+<label for="boite">Boîte de vitesses :</label>
+</td>
+ <td>
+<select id="boite" name="boite">
+<option value="Manuelle">Manuelle</option>
+ <option value="Automatique">Automatique</option>
+</select>
+ </td>
+</tr>
+
+       
+<tr>
+ <td>
+<label for="portes">Nombre de portes :</label>
+</td>
+<td>
+<select id="portes" name="portes">
+<option value="3">3 portes</option>
+<option value="5">5 portes</option>
+</select>
+ </td>
+</tr>
+
+<tr>
+<td>
+<label for="tarif">Tarif de location journalier (€) :</label>
+</td>
+ <td>
+<input type="number" id="tarif" name="tarif" min="0" step="0.01">
+</td>
+</tr>
+
+        
+ <tr>
+<td>
+ <label>Disponibilité :</label>
+</td>
+    <td>
+  <input type="radio" id="disponible" name="disponibilite" value="Disponible">
+ <label for="disponible">Disponible</label>
+
+  <input type="radio" id="indisponible" name="disponibilite" value="Indisponible">
+   <label for="indisponible">Indisponible</label>
+  </td>
+ </tr>
+
+ <tr>
+            <td colspan="2">
+<input type="submit" value="Enregistrer">
+ <input type="reset" value="Annuler">
+</td>
+</tr>
+</table>
+
+</form>
+<a href="index.html">Retour acceuil</a>
+
+
+
+
+
+</body>
+</html>
