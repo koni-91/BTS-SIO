@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ajout d'une voiture</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Ajouter une voiture</h1>
+
+    <form action="traitement_voiture.php" method="post">
+
+        <label for="immat">Immatriculation</label>
+        <input type="text" id="immat" name="immat">
+        <br>
+
+        <label for="marque">Marque</label>
+        <input type="text" id="marque" name="marque">
+        <br>
+
+        <label for="modele">Modèle</label>
+        <input type="text" id="modele" name="modele">
+        <br>
+
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="4"></textarea>
+        <br>
+
+        <input type="submit" value="Ajouter la voiture">
+        <br>
+
+    </form>
+    <a href="index.html">Retour acceuil</a>
+
+</body>
+</html>
